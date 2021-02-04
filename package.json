@@ -1,0 +1,30 @@
+{
+  "name": "demo-type-orm",
+  "version": "1.0.0",
+  "description": "Example how to use TypeORM with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node src/index.js"
+  },
+  "tags": [
+    "orm",
+    "typescript",
+    "typescript-orm",
+    "typeorm-sample",
+    "typeorm-example"
+  ],
+  "author": {
+    "name": "Fred Paucar",
+    "email": "fred.paucarespinoza@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.5.1",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.30"
+  },
+  "devDependencies": {
+    "@types/node": "^9.6.5",
+    "typescript": "^3.3.3333"
+  }
+}

@@ -1,0 +1,9 @@
+# packages
+node_modules
+# compile
+src/**/*.js
+src/**/*.js.map
+# ⁄MacOs
+.DS_Store
+# Env
+ormconfig.env
